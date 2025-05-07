@@ -1,5 +1,14 @@
-A.I. Final Project Proposal
+Ghosts
+A visual novel game based on the work of American writer Paul Auster
+Created by Nadir Elyaddasse with assistance from Google's Gemini
 
-A couple of months ago, I was recommended a series of novels called The New York Trilogy, by American writer Paul Auster, for Winter Leave reading. I devoured the three postmodern reinterpretations of classic detective fiction in the span of a week, and the stories' commentary on identity and perception have continued to linger in the back of my mind.
-With the assistance of Google's Gemini, I intend to reimagine the content of the second novel in the series as a two dimensional retro-style visual novel game. I will design the framework for the game using the 16 colors and up to 4 sound channels offered by the Pyxel open source game engine (linked below). After building this template, including the text, scene, and sound design, character system, progression framework, and storyboard, I will have Gemini use it as base from which to build up the full game, using the lines and environments described in the storyboard. Gemini, like most of the LLMs nowadays, is truly exceptional at streamlining tedious, detail-oriented tasks; for the purposes of my project, I will try to leverage this skill to generate complex pixelated environments without manually doing any graphic design work, and by having it reuse functions I write in great quantities, to create hundreds of different individual frames or scenes based on the one or two that I create manually. 
-One potential weakness of the model, especially compared to ChatGPT, is its limited ability to interact with images, which on the surface may inhibit its graphic design potential. It is my hope at the outset that the uniquely 2D programmed format of the Pyxel scenes, as compared with scene design using 3D tools like Unreal Engine or Blender graphics software, in conjunction with Gemini's ability to interpret abstract visuals, without creating them, will mitigate this potential shortcoming.
+Created using pyxel 2.2.10, available under the MIT open source license
+and pygame 2.6.1, available under the GNU LGPL version 2.1 license.
+
+To install these libraries run the following cmd commands:
+    pip install -U pyxel
+    pip install pygame
+
+To create an instance of the game, load your preferred version into a code editor and simply run the program in a folder including the assets. To view a transcript of all conversations and assistance provided by Gemini, access the hyperlink below: 
+
+https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221VubMB_Y3_ikr8dv16pNwwhvpyT5FopAW%22%5D,%22action%22:%22open%22,%22userId%22:%22116073275675498170499%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
